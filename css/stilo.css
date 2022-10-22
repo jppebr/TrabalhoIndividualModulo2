@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    background: rgb(36,0,0);
+background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(187,23,23,1) 100%, rgba(0,212,255,1) 100%);
+}
+header{
+    background-color: #272727;
+    color: rgb(207, 14, 14);
+    width: 60%;
+    height: 5%;
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    border-radius: 0 0 85px 85px;
+    border: 5px solid black;
+    border-top: none;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+.display1e2{
+    margin: 25px auto;
+    padding: 2%;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    color: rgba(139, 28, 12, 0.86);
+    background-color: #272727 ;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    border-radius: 85px ;
+    border: 5px solid black;
+}
+h2{
+    margin: 15px;
+}
+
+#mensagem{
+    padding:  15px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    width: 280px;
+}
+
+#select{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    font-size: large;
+    margin: 20px;
+    width: 290px;
+}
+
+.incremento{
+    margin: 20px;
+    display: none;
+}
+
+#numeroCesar{
+    margin: 0 auto;
+    padding: 15px;
+    width: 70px;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: left;
+    width: 180px;
+
+}
+
+#codificar, #decodificar{
+    margin: 15px;
+}
+
+#submit{
+    margin: 20px;
+    padding: 1%;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    height: 50px;
+    width: 280px;
+    border: 3px solid black;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#submit:hover{
+    transform: scale(1.2);
+    background-color: rgb(192, 192, 192);
+}
+
+.hMensagem {
+    margin: 25px;
+}
+
+.pMensagem {
+    margin: 0 15px 15px 15px;
+}

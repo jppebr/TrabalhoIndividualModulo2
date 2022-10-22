@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="./css/stilo.css">
+</head>
+<body>
+    <div id="img">
+
+    </div>
+    <header><h1>Codificador Do Flamengo</h1></header>
+    <div class="display1e2">
+        <h2>Codificador De Base64 E Cifra de César</h2><br>
+    <form>
+        <label for="mensagem">Sua Texto vai abaixo:</label><br>
+        <input type="text" name="mensagem" id="mensagem" ><br>
+
+        <label>Selecione o tipo de decodificação</label><br>
+
+        <select id="select">
+            <option value=""> Escolha </option>
+            <option value="Base64" >Base64</option>
+            <option value="cifraCesar">Cifra de César</option>
+        </select>
+
+
+        <label for="numeroCesar" class="incremento">Incremento utilizado na Cifra de Cesa</label>
+        <input type="number" id="numeroCesar" ><br>
+
+
+        <label class="escolha">Escolha</label><br><br>
+
+        <div class="radio">
+            <input type="radio" id="codificar" name="codDecod" value="codificar" checked>
+            <label for="codificar">Codificar</label><br>
+
+            <input type="radio" id="decodificar" name="codDecod" value="decodificar">
+            <label for="decodificar">Decodificar</label>
+        </div>
+        
+
+        <div class="">
+            <h2 class="hMensagem"></h2><br>
+            <p class="pMensagem"></p>
+        </div>
+
+        <input type="submit" value="Codificar Mensagem!" id="submit">
+    </form>
+</div>
+    <script src="./javascript/codifica.js"></script>
+</body>
+</html>
